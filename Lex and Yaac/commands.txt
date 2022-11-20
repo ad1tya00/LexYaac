@@ -1,0 +1,6 @@
+//Press Ctrl+C and in Terminal Press Ctrl+Shift+V
+
+lex infix.l
+yacc -d infix.y
+gcc lex.yy.c y.tab.c -w
+./a.out
